@@ -1,0 +1,187 @@
+.body{
+    margin-top:30px;
+    background : #f6f6f6;
+    float: left;
+    width : 100%;
+}
+
+.body-container{
+    margin-left: 60px;
+    margin-right: 60px;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.body-row{
+    width:50%;
+    float:left;
+    height: 500px;
+    margin-bottom : 20px;
+}
+
+.body-card{
+    background: white;   
+    float: left;
+    width : 80%;
+    height: 100%;
+    
+
+}
+
+.body-card-container{
+    width:100%;
+    height:100%;
+    float:left;
+    position: relative;
+   
+}
+
+.body-card-image{
+    height :76%;    
+    overflow: hidden;
+    float: left;
+    width : 100%;
+    position: relative;
+}
+
+.body-card-container img{
+    width : 100%;
+    min-height: 100%;
+    position : relative; 
+    z-index : 1;   
+}
+
+.body-card-badges{
+    width : 100%;    
+    top:20;
+    right:0;
+    left:0;
+    position: absolute;
+    z-index:1000;
+    height: 40%;
+    
+}
+
+.body-card-badges img{
+    width:50px;
+}
+
+
+
+.body-card-badges span{
+    color:white;
+    font-weight: bold;
+}
+
+.body-card-title{
+    width:100%;
+    text-align: center;
+    float:left; 
+    margin-top: 10px;   
+}
+
+.body-card-title h3{
+    font-size: xx-large;
+    font-weight: 100; 
+    margin : 0;  
+}
+
+.body-card-title p{
+    font-size: x-large;
+    font-weight: 100; 
+    margin : 0;  
+}
+
+.body-card-title span{
+    color : #d3d3cd;
+    font-weight: 200;  
+}
+
+.body-card-badges-price{    
+    width: 40%;
+    position: relative;
+    height: 150px;
+    float:left;
+}
+
+#triangle{
+    width: 0;
+    height: 0;
+    border-top: 110px solid white;
+    border-right: 130px solid transparent;
+    float:left;
+    
+}
+
+.triangle-price{
+    float:left;
+    position: absolute;
+    top:10%;
+    left:10%;
+    font-weight: bold;
+}
+
+.badgets-icons{    
+    float:right;
+    margin-top: -450px;
+    margin-right: 50px;        
+    z-index: 100000;
+}
+
+.badgets-icons span{
+    color :white;
+    z-index: 12000000;
+    float: left;
+}
+
+.badgets-icons-like{
+    float:left;
+    z-index: 19000000;
+}
+
+.badgets-icons-share{  
+    z-index: 19000000;
+}
+
+.badgets-icons img{
+    margin-top: 20px;
+}
+
+@media (max-width : 600px){
+    .body-row{
+        width : 100%;
+        height:600px; 
+    }
+
+    .body-card-image{
+        height:400px;
+    }
+
+
+
+    .badgets-icons{           
+        float:left;
+        margin-top:0;
+        width:100%;
+        height:70px;        
+    }
+
+    .badgets-icons img{
+        height : 100%;
+        width: 30%;
+    }
+
+    
+
+    .badgets-icons-share{
+        width:50%;  
+        float: left;
+        height: 100%;
+    }
+
+    .badgets-icons-like{
+        width:50%; 
+        height:100%;      
+    }
+}

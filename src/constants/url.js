@@ -1,0 +1,1 @@
+export const urlImage = "./assets/image.json";

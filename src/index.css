@@ -1,0 +1,18 @@
+h2{
+  font-size: xx-large;
+}
+
+
+body {
+  margin: 0;
+  
+    font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
